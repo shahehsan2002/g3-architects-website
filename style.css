@@ -66,7 +66,7 @@ nav li a{
 /* main styles */
 main{
     max-width: 1400px;
-    margin: 0 auto;
+    margin: 70px auto;
 }
 /* teams section */
 .teams-container{
@@ -122,8 +122,15 @@ main{
     header{
         padding: 20px;
     }
-    nav{
+    nav, .teams-container{
         flex-direction: column;
+    }
+    .teams-img-container{
+        grid-template-columns: 1fr;
+    }
+    .teams-content{
+        padding-left: 20px;
+        padding-right: 20px;
     }
     
 }
@@ -133,7 +140,7 @@ main{
     header{
         padding: 40px;
     }
-    nav{
+    nav, .teams-container{
         flex-direction: column;
     }
     
